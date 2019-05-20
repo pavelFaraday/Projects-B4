@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arvo', serif;
+}
+
+.height {
+    min-height: 50vh;
+}
+
+.title-underline {
+    width: 230px;
+    height: 5px;
+    margin: 0 auto;
+    /* background: blue!important; */
+}
+
+.height-80 {
+    min-height: 80vh;
+}
+
+.about-picture {
+    background: url(../img/img2.jpg) no-repeat center top / cover fixed;
+}
+
+#filler {
+    background: linear-gradient(#00000048, #000000b2), url(../img/img10.jpg) no-repeat center top / cover fixed;
+    /* linear-gradient(#00000048, #000000b2), - ფერები ზემოდან ქვემოთ (ნაგულისხმევი) */
+    /* linear-gradient(to right, #00000048, #000000b2), - ფერები მარცხნიდან მარჯვნისაკენ */
+}
+
+
+#progress {
+    background: linear-gradient(#00000048, #000000b2), url(../img/img11.jpg) no-repeat center top / cover fixed;
+    /* linear-gradient(#00000048, #000000b2), - ფერები ზემოდან ქვემოთ (ნაგულისხმევი) */
+    /* linear-gradient(to right, #00000048, #000000b2), - ფერები მარცხნიდან მარჯვნისაკენ */
+}
+
+
